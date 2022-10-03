@@ -1,0 +1,60 @@
+html {
+    font-size: 62.5%;
+  }
+  /* 1 Rem son 10 px*/
+
+:root{
+    font-family: 'Rubik', sans-serif;
+    --menu-text: #4a4a4a;
+    --background: #3CDBC0;
+    --h1-text: #FFFFFF;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-img{
+    width: 155px;
+    margin-top: 10px;
+}
+
+.header-menu{
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-menu-item{
+    margin-right: 20px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--menu-text);
+    text-transform: uppercase;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background);
+    margin-top: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.main-title{
+    margin-top: 130px;
+    font-size: 3rem;
+    font-weight: 1000;
+    line-height: 35px;
+    letter-spacing: 1.5px;
+    color: var(--h1-text);
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    width: 25rem;
+}
