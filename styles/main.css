@@ -42,12 +42,13 @@ html {
     background-color: var(--background);
     margin-top: 13px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center; 
 }
 
 .main-title{
-    margin-top: 130px;
+    position: absolute;
+    top: 40.96vh;
+    left:10.94wv;
     font-size: 3rem;
     font-weight: 1000;
     line-height: 35px;
@@ -57,4 +58,27 @@ html {
     display: block;
     box-sizing: border-box;
     width: 25rem;
+}
+
+@media screen and (min-width: 768px) {
+    .header{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-img{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .item2{
+        margin-right: 30px;
+    }
+    .main{
+        margin-top: 20px;
+    }
+    .main-title{
+        font-size: 4rem;
+        line-height: 45px;
+    }
+    
 }
