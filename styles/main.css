@@ -53,13 +53,11 @@ html {
     background-color: var(--background);
     margin-top: 13px;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    align-items: center;
 }
 
 .main-title{
-    position: absolute;
-    top: 40.96vh;
-    left:10.94wv;
     font-size: 3rem;
     font-weight: 1000;
     line-height: 35px;
