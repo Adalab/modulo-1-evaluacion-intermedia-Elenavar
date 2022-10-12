@@ -10,15 +10,15 @@ html {
     --h1-text: #FFFFFF;
 }
 
-.link{
-    text-decoration: none;
-    color: var(--menu-text);
-}
-
 .header{
+    width: 100vw;
+    position: fixed;
     display: flex;
+    top: 0;
     flex-direction: column;
     align-items: center;
+    background-color: var(--h1-text);
+    padding-bottom: 13px;
 }
 
 .header-img{
@@ -28,16 +28,20 @@ html {
 
 .nav{
     margin-top: 10px;
+    
+}
+.nav .link{
+    text-decoration: none;
+    color: var(--menu-text);
+    padding: 10px 10px 13px 10px;
 }
 
 .header-menu{
     list-style: none;
     display: flex;
-    flex-direction: row;
 }
 
 .header-menu-item{
-    margin-right: 20px;
     font-size: 1.6rem;
     font-weight: 400;
     text-transform: uppercase;
